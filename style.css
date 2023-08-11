@@ -1,0 +1,91 @@
+body {
+    background-image: url("./images/who-s-denilo-SuBb_SiEEM8-unsplash.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    justify-items: center;
+    justify-content: space-between;
+    align-content: space-evenly;
+    border-bottom: 0.5px solid rgba(98, 98, 98, 0.758);
+    width: 100%;
+  
+}
+
+
+h2 {
+    margin: 10px;
+    align-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    cursor: grab;
+    a:hover {
+        background-color: #EF0107;
+    }
+}
+
+menu {
+    margin: 10px;
+    justify-content: center;
+}
+
+.content {
+    font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
+    margin: 200px 40px ;
+    justify-content: left;
+    justify-items: left;
+    font-size: 22px;
+    padding: 10px;
+}
+
+h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
+    font-size: smaller;
+    margin: 40px;
+    color: rgba(0, 0, 0, 0.438);
+}
+
+a:hover {
+    color: #EF0107;
+}
+
+.cta {
+    background-color: #EF0107;
+    width: 150px;
+    height:30px;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-cta {
+    background-color: #EF0107;
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    /* align-items: flex-end; */
+    text-align: center;
+}
