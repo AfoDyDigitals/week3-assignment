@@ -4,41 +4,43 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .nav-bar {
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
     height: 50px;
-    width: 100vw;
     background-color: rgba(0, 0, 0, 0);
-    justify-items: center;
-    justify-content: space-between;
-    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     border-bottom: 0.5px solid rgba(98, 98, 98, 0.758);
-    width: 100%;
-  
+    width: calc(95% - 10px);
+    padding: 0px 5px;
 }
 
 
 h2 {
-    margin: 10px;
     align-content: end;
 }
 
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 20px;
-    cursor: grab;
-    a:hover {
-        background-color: #EF0107;
-    }
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #EF0107;
+    color: white !important;
 }
 
 menu {
-    margin: 10px;
-    justify-content: center;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .content {
@@ -81,11 +83,19 @@ a:hover {
     width: 50px;
     height: 10px;
     border-radius: 5px;
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     color: white;
     padding: 8px;
     font-size: 12px;
-    /* align-items: flex-end; */
     text-align: center;
+    margin-left: auto;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:auto;
 }
